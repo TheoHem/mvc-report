@@ -1,0 +1,19 @@
+{# templates/header.html.twig #}
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Welcome!</title>
+        <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 128 128%22><text y=%221.2em%22 font-size=%2296%22>⚫️</text></svg>">
+        
+        <link href="{{ asset('css/style.css') }}" rel="stylesheet"/>
+
+    </head>
+    <header>
+        <h1>Theo Hembäcks Sida För MVC-kursen</h1>
+        <a href="{{ app.request.getSchemeAndHttpHost() }}{{ app.request.getBaseURL() }}/">Index</a> |
+        <a href="{{ app.request.getSchemeAndHttpHost() }}{{ app.request.getBaseURL() }}/about">About</a> |
+        <a href="{{ app.request.getSchemeAndHttpHost() }}{{ app.request.getBaseURL() }}/report">Report</a>
+        <hr>
+    </header>

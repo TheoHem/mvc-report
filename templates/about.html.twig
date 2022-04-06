@@ -1,0 +1,16 @@
+{# templates/about.html.twig #}
+
+{% include('header.html.twig') %}
+
+<body>
+    <h2>OM MVC</h2>
+    <p>
+        Kursen går ut på att introducera objektorienterad programmering med PHP där vi kommer bygga en webbsida med ramverker Symfony.
+        Vidare kommer vi att jobba med deisgnmönstret mvc(Model-View-Controller) och integrera ett flertal tekniker så som 
+        SQL, HTML, CSS och webbservern Apache. Som stöd till detta kommer vi även introduceras till verktyg som kan hjälpa till i utvecklingen, exempelvis 
+        UNIX/Linux, extern webbserver, ssh, ftp/sftp och diverse databasklienter.
+    </p>
+    <img src="{{ asset('img/mvc.jpg') }}" alt="Svampbob" width="200">
+</body>
+
+{% include('footer.html.twig') %}

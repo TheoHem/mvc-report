@@ -1,0 +1,18 @@
+{# templates/index.html.twig #}
+
+
+{% include('header.html.twig') %}
+
+<body>
+    <h2>Presentation</h2>
+    <p>
+        Hej!
+        Mitt namn är Theo och jag kommer från södertälje. Jag jobbar med att testa växellådor och läser den här kursen för att 
+        bredda mina kunskaper inom datavetenskap.
+        <br>
+        <link href="{{ asset('css/style.css') }}" rel="stylesheet"/>
+        <img src="{{ asset('img/svampbob.jpg') }}" alt="Svampbob" width="200">
+    </p>
+</body>
+
+{% include('footer.html.twig') %}
