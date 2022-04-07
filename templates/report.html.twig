@@ -6,6 +6,43 @@
 <body>
     <h1>Report</h1>
     <h2>Kmom01</h2>
+    <h3>Erfarenheter OOP</h3>
+    <p>
+        Jag har tidigare läst kursen i objektorienterad python på här på BTH 
+        och jag påbörjade även den här kursen förra gången den gick, men kom dessvärre inte så långt.
+    </p>
+    <h3>OOP i PHP</h3>
+    <p>
+        Att komma igång med klasser och objekt i PHP är ganska likt ex. python. Man behöver först skapa en klass och fylla den med 
+        tillhörande variabler och metoder. Sedan innstansierar man ett objekt med syntaxen "$objekt = new Klass();" och därefter kan man 
+        modifiera och kalla delarna i objektet med syntaxen "$objekt->var = 123" för att tilldela en variabel ett värde eller 
+        "$objekt->metod();" för att kalla en metod.
+        <br><br>
+        För att refferera till variabler och metoder inom sin klass används variabeln $this, ex om man vill komma åt en 
+        objektvariabel i en funktion. Detta kan se ut som "$this->variabel = 123". 
+        <br><br>
+        Detta borde räcker för att skapa en första klass och instansiera ett första objekt.
+    </p>
+    <h3>Koden i report</h3>
+    <p>
+        Som vanligt när jag ska sätta sig in i ett okänt ramverk så tycker jag att det kan kännas lite överväldigande, 
+        speciellt när det är i ett programmeringsspråk som jag inte är supervan vid att använda. Jag hade lite svårt att förstå hur jag skulle 
+        komma åt bilder och CSS-filer i mina twig-templates, men förstod fter ett tag att det bara räcker att läka dom i public-mappen. 
+        Det verkar även som att man kan lägga dessa filer under assets och bygga dom med webpack, men fick inte riktigt det att lira. 
+        <br><br>
+        Att skapa en kontroller och bygga routes i den gick smidigt när jag hade någon form av grund på plats, men 
+        jag måste starta om webbservern varje gång jag gör en ändring där i, vilket känns lite bökigt. Har försökt att leta efter något 
+        smidigare sätt att göra det på, men inte lyckats ännu.
+    </p>
+    <h3>PHP the right way</h3>
+    <p>
+        Jag har inte kollat så mycket i artikeln ännu då jag inte har skrivit jättemycket PHP-kod och mest har fokuserat på att få ramverket att fungera.
+        Det verkar dock finnas mcyket bra info där så jag kommer säkerligen ha nytta för den i kommande kursmoment.
+    </p>
+    </h3>TIl</h3>
+    <p>
+        Hur man initierar enn Symfony-projekt och börjar skapa webbsidor med det.
+    </p>
 </body>
 
 {% include('footer.html.twig') %}
